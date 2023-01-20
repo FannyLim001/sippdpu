@@ -13,37 +13,36 @@
                 <div class="row mb-3">
                   <label for="inputText" class="col-sm-2 col-form-label">Nama Jalan</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control">
+                    <asp:TextBox ID ="nama_jalan" runat ="server" CssClass ="form-control" />
                   </div>
                 </div>
                 <div class="row mb-3">
                   <label for="inputEmail" class="col-sm-2 col-form-label">Lokasi</label>
                   <div class="col-sm-10">
-                    <input type="email" class="form-control">
+                    <asp:TextBox ID ="lokasi_jalan" runat ="server" CssClass ="form-control" />
                   </div>
                 </div>
                 <div class="row mb-3">
                   <label class="col-sm-2 col-form-label">Status</label>
                   <div class="col-sm-10">
-                    <select class="form-select" aria-label="Default select example">
-                      <option selected>Pilih Status Jalan</option>
-                      <option value="Belum ditinjau">Belum ditinjau</option>
-                      <option value="Ditinjau">Ditinjau</option>
-                      <option value="Proses">Proses</option>
-                      <option value="Selesai">Selesai</option>
-                    </select>
+                    <asp:DropDownList ID="status_jalan" runat ="server" CssClass ="form-control">
+                        <asp:ListItem>Belum ditinjau</asp:ListItem>
+                        <asp:ListItem>Ditinjau</asp:ListItem>
+                        <asp:ListItem>Proses</asp:ListItem>
+                        <asp:ListItem>Selesai</asp:ListItem>
+                    </asp:DropDownList>
                   </div>
                 </div>
                 <div class="row mb-3">
                   <label for="inputNumber" class="col-sm-2 col-form-label">Foto Jalan</label>
                   <div class="col-sm-10">
-                    <input class="form-control" type="file" id="formFile">
+                    <asp:FileUpload ID ="foto_jalan" runat ="server" CssClass ="form-control" />
                   </div>
                 </div>
                 <div class="row mb-3">
                   <label class="col-sm-2 col-form-label"></label>
                   <div class="col-sm-10">
-                    <button type="submit" class="btn btn-primary">Edit</button>
+                    <asp:Button ID ="btn_edit_jalan" runat ="server" CssClass ="btn btn-primary" Text ="Edit" />
                   </div>
                 </div>
 

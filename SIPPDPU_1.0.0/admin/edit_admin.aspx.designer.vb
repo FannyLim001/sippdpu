@@ -12,4 +12,40 @@ Option Explicit On
 
 
 Partial Public Class edit_admin
+
+    '''<summary>
+    '''txt_username control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txt_username As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txt_email control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txt_email As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txt_password control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txt_password As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''btn_edit_admin control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btn_edit_admin As Global.System.Web.UI.WebControls.Button
 End Class

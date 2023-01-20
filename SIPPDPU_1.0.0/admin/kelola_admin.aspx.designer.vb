@@ -14,11 +14,11 @@ Option Explicit On
 Partial Public Class kelola_admin
 
     '''<summary>
-    '''tabel_admin control.
+    '''admin_table control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents tabel_admin As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents admin_table As Global.System.Web.UI.WebControls.Repeater
 End Class

@@ -13,37 +13,37 @@
                 <div class="row mb-3">
                   <label for="inputText" class="col-sm-2 col-form-label">Nama</label>
                   <div class="col-sm-10">
-                    <label for="inputText" class="col-sm-12 col-form-label">User</label>
+                      <asp:Label ID ="nama_pengadu" runat ="server" CssClass ="col-sm-12 col-form-label" />
                   </div>
                 </div>
                 <div class="row mb-3">
                   <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
                   <div class="col-sm-10">
-                    <label for="inputText" class="col-sm-12 col-form-label">user@gmail.com</label>
+                    <asp:Label ID ="email_pengadu" runat ="server" CssClass ="col-sm-12 col-form-label" />
                   </div>
                 </div>
                 <div class="row mb-3">
                   <label for="inputPassword" class="col-sm-2 col-form-label">Subjek</label>
                   <div class="col-sm-10">
-                    <label for="inputText" class="col-sm-12 col-form-label">Apa aja</label>
+                    <asp:Label ID ="subjek_pengadu" runat ="server" CssClass ="col-sm-12 col-form-label" />
                   </div>
                 </div>
                 <div class="row mb-3">
                   <label for="inputPassword" class="col-sm-2 col-form-label">Pesan</label>
                   <div class="col-sm-10">
-                    <label for="inputPassword" class="col-sm-12 col-form-label">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</label>
+                    <asp:Label ID ="pesan_pengadu" runat ="server" CssClass ="col-sm-12 col-form-label" />
                   </div>
                 </div>
                  <div class="row mb-3">
                   <label for="inputPassword" class="col-sm-2 col-form-label">Respon</label>
                   <div class="col-sm-10">
-                    <textarea class="form-control" style="height: 100px"></textarea>
+                    <asp:TextBox ID ="respon" TextMode ="MultiLine" Rows ="10" runat ="server" CssClass ="form-control" />
                   </div>
                 </div>
                 <div class="row mb-3">
                   <label class="col-sm-2 col-form-label"></label>
                   <div class="col-sm-10">
-                    <button type="submit" class="btn btn-primary">Kirim</button>
+                    <asp:Button ID ="btn_kirim_respon" runat ="server" CssClass ="btn btn-primary" Text ="Kirim" />
                   </div>
                 </div>
 

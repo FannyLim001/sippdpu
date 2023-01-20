@@ -64,18 +64,99 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:SIPPDPU_1._0._0.kelola_admin._tabel_admin">
+<member name="F:SIPPDPU_1._0._0.edit_admin._txt_username">
 <summary>
-tabel_admin control.
+txt_username control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:SIPPDPU_1._0._0.perbaikan_jalan._tabel_jalan">
+<member name="F:SIPPDPU_1._0._0.edit_admin._txt_email">
 <summary>
-tabel_jalan control.
+txt_email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.edit_admin._txt_password">
+<summary>
+txt_password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.edit_admin._btn_edit_admin">
+<summary>
+btn_edit_admin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.edit_jalan._nama_jalan">
+<summary>
+nama_jalan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.edit_jalan._lokasi_jalan">
+<summary>
+lokasi_jalan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.edit_jalan._status_jalan">
+<summary>
+status_jalan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.edit_jalan._foto_jalan">
+<summary>
+foto_jalan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.edit_jalan._btn_edit_jalan">
+<summary>
+btn_edit_jalan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.kelola_admin._admin_table">
+<summary>
+admin_table control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.perbaikan_jalan._jalan_Table">
+<summary>
+jalan_Table control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -238,6 +319,114 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:SIPPDPU_1._0._0.pengaduan._tabel_pengaduan">
 <summary>
 tabel_pengaduan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.tambah_pengaduan._nama_pengadu">
+<summary>
+nama_pengadu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.tambah_pengaduan._email_pengadu">
+<summary>
+email_pengadu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.tambah_pengaduan._subjek_pengadu">
+<summary>
+subjek_pengadu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.tambah_pengaduan._pesan_pengadu">
+<summary>
+pesan_pengadu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.tambah_pengaduan._respon">
+<summary>
+respon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.tambah_pengaduan._btn_kirim_respon">
+<summary>
+btn_kirim_respon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.index._nama_pengadu">
+<summary>
+nama_pengadu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.index._email_pengadu">
+<summary>
+email_pengadu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.index._subjek_pengadu">
+<summary>
+subjek_pengadu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.index._pesan_pengadu">
+<summary>
+pesan_pengadu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.index._btn_kirim_pengaduan">
+<summary>
+btn_kirim_pengaduan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SIPPDPU_1._0._0.index._respon_table">
+<summary>
+respon_table control.
 </summary>
 <remarks>
 Auto-generated field.

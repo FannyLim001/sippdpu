@@ -12,4 +12,58 @@ Option Explicit On
 
 
 Partial Public Class tambah_pengaduan
+
+    '''<summary>
+    '''nama_pengadu control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents nama_pengadu As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''email_pengadu control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents email_pengadu As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''subjek_pengadu control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents subjek_pengadu As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''pesan_pengadu control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pesan_pengadu As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''respon control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents respon As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''btn_kirim_respon control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btn_kirim_respon As Global.System.Web.UI.WebControls.Button
 End Class

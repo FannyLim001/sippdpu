@@ -101,14 +101,26 @@
 
                     <script>
                         const total_pengaduan = document.getElementById('pengaduan');
+                        var jan = <%= Me.jan%>
+                        var feb = <%= Me.feb%>
+                        var mar = <%= Me.mar%>
+                        var apr = <%= Me.apr%>
+                        var mei = <%= Me.mei%>
+                        var jun = <%= Me.jun%>
+                        var jul = <%= Me.jul%>
+                        var agu = <%= Me.agu%>
+                        var sept = <%= Me.sept%>
+                        var okt = <%= Me.okt%>
+                        var nov = <%= Me.nov%>
+                        var dec = <%= Me.dec%>
 
                         new Chart(total_pengaduan, {
                             type: 'line',
                             data: {
                                 labels: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'],
                                 datasets: [{
-                                    label: 'Total Pengaduan',
-                                    data: [65, 59, 80, 81, 56, 55, 40],
+                                    label: 'Total Pengaduan di 2023',
+                                    data: [jan,feb,mar,apr,mei,jun,jul,agu,sept,okt,nov,dec],
                                     borderWidth: 1,
                                     borderColor: 'rgb(75, 192, 192)'
                                 }]
@@ -144,6 +156,8 @@
 
                     <script>
                         const ctx = document.getElementById('perbaikan_jalan');
+                        var jalanRusak = <%= Me.total_jalan_rusak %>
+                        var jalanDiperbaiki = <%= Me.jalan_diperbaiki %>
 
                         new Chart(ctx, {
                             type: 'bar',
@@ -151,7 +165,7 @@
                                 labels: ['Rusak', 'Sedang diperbaiki'],
                                 datasets: [{
                                     label: 'Perbaikan Jalan',
-                                    data: [12, 19],
+                                    data: [jalanRusak, jalanDiperbaiki],
                                     borderWidth: 1
                                 }]
                             },

@@ -3,6 +3,12 @@
 Public Class pengaduan
     Inherits System.Web.UI.Page
 
+    Public id As Integer
+    Public nama As String
+    Public email As String
+    Public subjek As String
+    Public status As String
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If (String.IsNullOrEmpty(Session("email"))) Then
             Response.Redirect("login.aspx")
@@ -21,4 +27,8 @@ Public Class pengaduan
         tabel_pengaduan.DataBind()
     End Sub
 
+    Protected Sub respon_pengaduan_Command(sender As Object, e As CommandEventArgs)
+        Session("id_pengaduan") = e.CommandArgument
+        Response.Redirect("respon_pengaduan.aspx")
+    End Sub
 End Class

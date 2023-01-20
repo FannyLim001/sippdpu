@@ -20,5 +20,5 @@ Partial Public Class pengaduan
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents tabel_pengaduan As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents tabel_pengaduan As Global.System.Web.UI.WebControls.Repeater
 End Class

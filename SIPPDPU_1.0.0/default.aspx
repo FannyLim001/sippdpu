@@ -44,7 +44,7 @@
     <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center">
 
-            <h1 class="logo me-auto"><a href="index.aspx">SIPPDPU</a></h1>
+            <h1 class="logo me-auto"><a href="/">SIPPDPU</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -285,31 +285,29 @@
                 </div>
 
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <form runat ="server" class="php-email-form">
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="name">Nama</label>
-                                <input type="text" name="name" class="form-control" id="name" required>
+                                <asp:TextBox ID ="nama_pengadu" runat ="server" CssClass ="form-control" />
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="name">Email</label>
-                                <input type="email" class="form-control" name="email" id="email" required>
+                                <asp:TextBox ID ="email_pengadu" runat ="server" CssClass ="form-control" />
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="name">Subjek</label>
-                            <input type="text" class="form-control" name="subject" id="subject" required>
+                            <asp:TextBox ID ="subjek_pengadu" runat ="server" CssClass ="form-control" />
                         </div>
                         <div class="form-group">
                             <label for="name">Pesan</label>
-                            <textarea class="form-control" name="message" rows="10" required></textarea>
+                            <asp:TextBox ID ="pesan_pengadu" TextMode ="MultiLine" Rows ="10" runat ="server" CssClass ="form-control" />
                         </div>
-                        <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        <div class="text-center">
+                            <asp:Button ID ="btn_kirim_pengaduan" runat ="server" CssClass ="btn btn-primary" Text ="Kirim" OnClick ="btn_kirim_pengaduan_Click"
+                                CausesValidation="false" UseSubmitBehavior="False" />
                         </div>
-                        <div class="text-center"><button type="submit">Kirim</button></div>
                     </form>
                 </div>
 
@@ -318,7 +316,7 @@
         </div>
     </section><!-- End Contact Section -->
     <!-- ======= Table Pengaduan Section ======= -->
-    <section id="contact" class="contact">
+    <section id="respon" class="contact">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
@@ -330,35 +328,7 @@
                 <div class="col-lg-12 d-flex align-items-stretch">
                     <div class="info">
                         <div class="table-responsive-md">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>mdo</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>fat</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td colspan="2">Larry the Bird</td>
-                                        <td>twitter</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <asp:PlaceHolder ID = "respon_table" runat="server" />
                         </div>
                     </div>
                 </div>

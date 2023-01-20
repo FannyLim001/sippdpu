@@ -14,11 +14,11 @@ Option Explicit On
 Partial Public Class perbaikan_jalan
 
     '''<summary>
-    '''tabel_jalan control.
+    '''jalan_Table control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents tabel_jalan As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents jalan_Table As Global.System.Web.UI.WebControls.Repeater
 End Class
